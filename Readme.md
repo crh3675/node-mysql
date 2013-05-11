@@ -6,6 +6,8 @@
 ### Do not download this version for production use.  The main project can be found at 
 [https://github.com/felixge/node-mysql](https://github.com/felixge/node-mysql)
 
+### Reference: [MySQL SSL Options](http://dev.mysql.com/doc/internals/en/connection-phase.html#flag-CLIENT_SSL) ###
+
 
 ### ** Documentation slightly modified to represent SSL connections **
 
