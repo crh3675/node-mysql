@@ -7,10 +7,6 @@
 [https://github.com/felixge/node-mysql](https://github.com/felixge/node-mysql)
 
 
-## The following Documentaton has been kept in tact for reference only
-
-
-
 Despite the alpha tag, this is the recommended version for new applications.
 For information about the previous 0.9.x releases, visit the [v0.9 branch][].
 
@@ -36,6 +32,7 @@ var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'me',
   password : 'secret',
+  ssl      : { key : null, cert : null, ca: [ fs.readFileSync('path-to_certs.pem') ] }
 });
 
 connection.connect();
