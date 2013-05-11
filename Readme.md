@@ -16,10 +16,9 @@ Sometimes I may also ask you to install the latest version from Github to check
 if a bugfix is working. In this case, please do:
 
 ```
-npm install felixge/node-mysql
+git clone git://github.com/crh3675/node-mysql-ssl-dev.git
 ```
 
-[v0.9 branch]: https://github.com/felixge/node-mysql/tree/v0.9
 
 ## Introduction
 
