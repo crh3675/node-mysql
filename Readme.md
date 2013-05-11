@@ -7,6 +7,8 @@
 [https://github.com/felixge/node-mysql](https://github.com/felixge/node-mysql)
 
 
+### ** Documentation slightly modified to represent SSL connections **
+
 Despite the alpha tag, this is the recommended version for new applications.
 For information about the previous 0.9.x releases, visit the [v0.9 branch][].
 
