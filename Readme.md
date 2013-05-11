@@ -1,12 +1,11 @@
-# node-mysql
+# node-mysql-ssl-dev
 
-[![Build Status](https://secure.travis-ci.org/felixge/node-mysql.png)](http://travis-ci.org/felixge/node-mysql)
 
-## Install
+## This is a Fork of the main project to work on SSL Support. If you want to contribute, please let me know 
 
-```bash
-npm install mysql@2.0.0-alpha8
-```
+### Do not download this version for production use.  The main project can be found at 
+[https://github.com/felixge/node-mysql](https://github.com/felixge/node-mysql)
+
 
 Despite the alpha tag, this is the recommended version for new applications.
 For information about the previous 0.9.x releases, visit the [v0.9 branch][].
@@ -33,6 +32,7 @@ var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'me',
   password : 'secret',
+  ssl      : { key : null, cert : null, ca: [ fs.readFileSync('path-to_certs.pem') ] }
 });
 
 connection.connect();
