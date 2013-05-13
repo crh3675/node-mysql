@@ -3,6 +3,9 @@
 
 ## This is a Fork of the main project to work on SSL Support. If you want to contribute, please let me know 
 
+## Here is a current BLOCKER I am facing ##
+https://forums.aws.amazon.com/thread.jspa?messageID=450289
+
 ### Do not download this version for production use.  The main project can be found at 
 [https://github.com/felixge/node-mysql](https://github.com/felixge/node-mysql)
 
